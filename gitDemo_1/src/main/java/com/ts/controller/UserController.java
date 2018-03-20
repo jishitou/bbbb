@@ -3,8 +3,9 @@ package com.ts.controller;
 public class UserController {
 
 	public static void main(String[] args) {
-		//asfdsafsafa
-		//sdsdsadsad
-		//wewe123213sadas
+		Integer f1 = 100, f2 = 100, f3 = 150, f4 = 150;
+		 
+        System.out.println(f1 == f2);
+        System.out.println(f3 == f4);
 	}
 }
