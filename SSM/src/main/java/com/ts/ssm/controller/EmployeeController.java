@@ -30,6 +30,7 @@ public class EmployeeController {
 	private EmployeeService empService;
 	
 	//根据id删除员工的信息,将单个删除以及批量删除结合在一块
+	//asdfsdfsadfs
 	@ResponseBody
 	@RequestMapping(value="/emps/{empIds}",method=RequestMethod.DELETE)
 	public Msg remove(@PathVariable("empIds") String empIds){
